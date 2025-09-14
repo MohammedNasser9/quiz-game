@@ -24,4 +24,4 @@ Players can test their knowledge by answering multiple-choice questions, track t
 ---
 
 ## 🚀 Live Demo
-👉 [View Demo on Vercel](https://your-vercel-link.vercel.app/)
+👉 [View Demo on Vercel](https://quiz-game-fawn-phi.vercel.app/)
