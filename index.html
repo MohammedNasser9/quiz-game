@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="favicon" rel="icon" href="images/quiz-favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Game</title>
+
+   
+</head>
+<body>
+    
+    <div class="container">
+        <!-- Start Screen Starts -->
+        <div id="start-screen" class="screen active">
+            <h3>Quiz Time!</h3>
+            <p>Test your knowledge with these fun questions</p>
+            <button class="general-btn" id="start-btn">Start Quiz</button>
+        </div>
+        <!-- Start Screen Ends -->
+        <!-- Questions Screen Starts -->
+        <div class="screen" id="questions-screen">
+            <!-- Head -->
+            <div id="head">
+                <h3 id="question-text"></h3>
+                <div class="question-info">
+                    <p>Question <span id="curren-question"></span> of <span id="total-questions"></span></p>
+                    <p>Score: <span id="current-score"></span></p>
+                </div>
+            </div>
+            <!-- Choices Container -->
+            <div class="choices-container" id="choices-container">
+                <!-- ============ Chioces Button here By JS ============ -->
+            </div> 
+            <!-- Progress Bar -->
+             <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+             </div>
+        </div>
+        <!-- Questions Screen Ends -->
+        <div id="result-screen" class="screen ">
+            <h3>Quiz Results</h3>
+            <div class="result-info">
+                <p>You scored <span id="score-result"></span> out of <span id="max-score"></span></p>
+                <p id="result-message">Not bad! Try again to improve!</p>
+            </div>
+            <button class="general-btn" id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
